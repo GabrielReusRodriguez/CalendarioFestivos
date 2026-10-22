@@ -1,0 +1,39 @@
+{
+  "year": 2026,
+  "municipality": {
+    "ine": "28079",
+    "name": "Madrid",
+    "province": {"ine": "28", "name": "Madrid"},
+    "ccaa": {"code": "ES-MD", "name": "Comunidad de Madrid"}
+  },
+  "holidays": [
+    {
+      "date": "2026-05-15",
+      "name": {"es": "San Isidro Labrador"},
+      "level": "local",
+      "type": "fixed",
+      "source": {"ref": "Datos abiertos", "url": "https://datos.comunidad.madrid"}
+    },
+    {
+      "date": "2026-01-01",
+      "name": {"es": "Año Nuevo"},
+      "level": "national",
+      "type": "fixed",
+      "source": {"ref": "BOE-A-2025-21667", "url": "https://www.boe.es"}
+    },
+    {
+      "date": "2026-04-03",
+      "name": {"es": "Viernes Santo"},
+      "level": "national",
+      "type": "movable",
+      "source": {"ref": "BOE-A-2025-21667"}
+    },
+    {
+      "date": "2026-05-02",
+      "name": {"es": "Fiesta de la Comunidad de Madrid"},
+      "level": "regional",
+      "type": "fixed",
+      "source": {"ref": "BOE-A-2025-21667"}
+    }
+  ]
+}

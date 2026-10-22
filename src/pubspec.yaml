@@ -1,0 +1,32 @@
+name: calculadora_festivos
+description: Calcula los festivos de España por municipio y año, y los exporta a un calendario .ics.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  path_provider: ^2.1.5
+  share_plus: ">=10.1.4 <11.0.0"
+  web: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/municipios.json
+  fonts:
+    - family: Besley
+      fonts:
+        - asset: assets/fonts/Besley.ttf
+    - family: Figtree
+      fonts:
+        - asset: assets/fonts/Figtree.ttf
